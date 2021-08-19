@@ -1,0 +1,53 @@
+
+
+
+#root {
+	-fx-background-color: #9ad3bc;
+	-fx-border-color: black;
+	-fx-border-width: 1;
+	-fx-border-style: solid;
+}
+
+#startlabel {
+	-fx-font-family: Impact, Charcoal, sans-serif;
+	-fx-font-size: 84px;
+	-fx-text-fill: #30475e;
+}
+
+#label {
+	-fx-font-family: "Comic Sans MS", cursive, sans-serif;
+	-fx-font-size: 29px;
+	-fx-font-weight: 700;
+	-fx-font-variant: small-caps;
+}
+
+#startbutt, #exitbutt, #nextbutt, #fighterbutt, #tankbutt, #startfightbutt, #runawaybutt, #attackbutt, #potbutt, #specialattackbutt,
+#excalibutt, #aegibutt, #caucebutt {
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-family: "Arial Black", Gadget, sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+    -fx-padding: 20 70 20 70;
+}
+
+#startbutt:hover, #exitbutt:hover, #nextbutt:hover {
+	-fx-opacity: 0.5;
+}
+
+#nextbutt {
+	-fx-padding: 20 70 20 70;
+}
+
+#label {
+	/*-fx-padding: 50 50 50 50;*/
+	-fx-font-size: 24;
+	-fx-padding: 0 0 20 0;
+}
