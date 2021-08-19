@@ -1,0 +1,10 @@
+jdbc\builder\MySQLURLBuilder.class
+propertyexample\PropertyExample.class
+common\CommonGUIBuilder.class
+jdbc\JDBCController.class
+dbreader\ConnectDialog.class
+module-info.class
+jdbc\builder\JDBCURLBuilder.class
+common\function\FunctionThrow.class
+dbreader\DBReader.class
+jdbc\JDBCModel.class
