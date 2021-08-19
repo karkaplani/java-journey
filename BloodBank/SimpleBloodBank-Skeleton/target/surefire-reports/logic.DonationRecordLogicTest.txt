@@ -1,0 +1,88 @@
+-------------------------------------------------------------------------------
+Test set: logic.DonationRecordLogicTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 14, Skipped: 0, Time elapsed: 0.172 s <<< FAILURE! - in logic.DonationRecordLogicTest
+logic.DonationRecordLogicTest.testCreateEntity  Time elapsed: 0.021 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+Caused by: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+
+logic.DonationRecordLogicTest.testCreateEntityNullAndEmptyValues  Time elapsed: 0.01 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+Caused by: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+
+logic.DonationRecordLogicTest.testExtractDataAsList  Time elapsed: 0.011 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+Caused by: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+
+logic.DonationRecordLogicTest.testCreateEntityAndAdd  Time elapsed: 0.011 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+Caused by: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+
+logic.DonationRecordLogicTest.testGetDonationRecordWithAdministrator  Time elapsed: 0.012 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+Caused by: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+
+logic.DonationRecordLogicTest.testCreateEntityBadLengthValues  Time elapsed: 0.012 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+Caused by: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+
+logic.DonationRecordLogicTest.testGetAccountWithTested  Time elapsed: 0.01 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+Caused by: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+
+logic.DonationRecordLogicTest.testCreateEntityEdgeValues  Time elapsed: 0.01 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+Caused by: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+
+logic.DonationRecordLogicTest.testGetDonationRecordWithHospital  Time elapsed: 0.011 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+Caused by: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+
+logic.DonationRecordLogicTest.testGetAll  Time elapsed: 0.012 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+Caused by: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+
+logic.DonationRecordLogicTest.testGetDonationRecordWithCreated  Time elapsed: 0.011 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+Caused by: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+
+logic.DonationRecordLogicTest.testGetColumnCodes  Time elapsed: 0.011 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+Caused by: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+
+logic.DonationRecordLogicTest.testGetColumnNames  Time elapsed: 0.011 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+Caused by: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+
+logic.DonationRecordLogicTest.testGetWithId  Time elapsed: 0.011 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+Caused by: org.hibernate.PropertyValueException: not-null property references a null or transient value : entity.DonationRecord.administrator
+	at logic.DonationRecordLogicTest.setUp(DonationRecordLogicTest.java:83)
+

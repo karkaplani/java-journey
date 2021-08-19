@@ -1,0 +1,7 @@
+logic\DonationRecordLogicTest.class
+common\TomcatStartUp.class
+logic\BloodDonationTest.class
+logic\BloodBankLogicTest.class
+logic\AccountLogicTest.class
+logic\PersonLogicTest.class
+common\EmbededTomcatBuilder.class

@@ -1,0 +1,108 @@
+-------------------------------------------------------------------------------
+Test set: logic.BloodDonationTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 13, Skipped: 0, Time elapsed: 132.164 s <<< FAILURE! - in logic.BloodDonationTest
+logic.BloodDonationTest.testGetBloodDonationWithMilliliters  Time elapsed: 0.02 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'JUNIT' for key 'blood_bank.name_UNIQUE'
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+
+logic.BloodDonationTest.testGetBloodDonationWithBloodGroup  Time elapsed: 21.972 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'JUNIT' for key 'blood_bank.name_UNIQUE'
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+
+logic.BloodDonationTest.testCreateEntityNullAndEmptyValues  Time elapsed: 0.015 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'JUNIT' for key 'blood_bank.name_UNIQUE'
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+
+logic.BloodDonationTest.testExtractDataAsList  Time elapsed: 24.992 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'JUNIT' for key 'blood_bank.name_UNIQUE'
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+
+logic.BloodDonationTest.testGetBloodDonationsWithBloodBank  Time elapsed: 0.015 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'JUNIT' for key 'blood_bank.name_UNIQUE'
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+
+logic.BloodDonationTest.testCreateEntityAndAdd  Time elapsed: 20.002 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'JUNIT' for key 'blood_bank.name_UNIQUE'
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+
+logic.BloodDonationTest.testGetAll  Time elapsed: 0.016 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'JUNIT' for key 'blood_bank.name_UNIQUE'
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+
+logic.BloodDonationTest.testGetBloodDonationsWithRhd  Time elapsed: 19.996 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'JUNIT' for key 'blood_bank.name_UNIQUE'
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+
+logic.BloodDonationTest.testGetColumnCodes  Time elapsed: 5.011 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'JUNIT' for key 'blood_bank.name_UNIQUE'
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+
+logic.BloodDonationTest.testGetColumnNames  Time elapsed: 15.041 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'JUNIT' for key 'blood_bank.name_UNIQUE'
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+
+logic.BloodDonationTest.testGetBloodDonationWithCreated  Time elapsed: 4.995 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'JUNIT' for key 'blood_bank.name_UNIQUE'
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+
+logic.BloodDonationTest.testGetWithId  Time elapsed: 15.022 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'JUNIT' for key 'blood_bank.name_UNIQUE'
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+
+logic.BloodDonationTest.testCreateEntityBadValues  Time elapsed: 4.999 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'JUNIT' for key 'blood_bank.name_UNIQUE'
+	at logic.BloodDonationTest.setUp(BloodDonationTest.java:66)
+
