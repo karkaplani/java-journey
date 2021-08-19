@@ -1,0 +1,10 @@
+databank\jsf\EmailValidator.class
+databank\dao\PersonDao.class
+databank\model\PersonPojo.class
+databank\config\FacesConfigAndServletContextListener.class
+databank\dao\PersonDaoImpl.class
+databank\jsf\PersonController.class
+databank\jsf\PhoneValidator.class
+databank\jsf\NewPersonView.class
+databank\model\PersonPojoListener.class
+databank\ejb\PersonService.class
