@@ -57,4 +57,4 @@ Tested REST service with security for a web application
 ---
 
 ## License
-There is no licensing for this repository, thus it means **nobody is allowed to copy or distribute ANY of the academic projects here**. First two are my personal projects having MIT license, so feel free to use them as you wish.    
+There is no licensing for this repository, thus it means **nobody is allowed to copy or distribute ANY of the academic projects here, otherwise there will be serious consequences**. First two are my personal projects, so feel free to use them as you wish, and if you need help in any project please feel free to reach me out at [LinkedIN](https://www.linkedin.com/in/apo-ilgun-bb553a1b3/).
