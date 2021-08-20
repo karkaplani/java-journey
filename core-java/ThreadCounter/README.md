@@ -7,4 +7,6 @@ Simple desktop application to practice threading in Java. The GUI was built by P
 
 # Video Demo
 
-Will be added
+https://user-images.githubusercontent.com/65611642/130173343-82fc8489-1d8c-483c-8210-042157b57899.mp4
+
+
