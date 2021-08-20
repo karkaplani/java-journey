@@ -12,4 +12,8 @@ The application is running on an Apache Tomcat server with a MySQL database conn
 
 # Video Demo
 
-https://youtu.be/umr0Mvco9bU
+**Important Note: The video is taken by Shahriar Emami since NetBeans-Tomcat setup does not exist anymore on my machine when I created this repository. The project though looks pretty much the same.**
+
+
+https://user-images.githubusercontent.com/65611642/130173762-cd2b42a6-67dd-42f5-a507-21782213d7f5.mp4
+
