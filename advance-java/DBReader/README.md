@@ -14,3 +14,5 @@ The application is aiming to simply connect to a MySQL database and read the dat
 # Video Demo
 
 https://user-images.githubusercontent.com/65611642/130173924-576313fa-7d55-49c7-8af1-761918536b4d.mp4
+
+https://youtu.be/K4EpjEnSIUQ

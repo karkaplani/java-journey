@@ -28,4 +28,4 @@ During the first weeks of the third term, where the approach to GUI apps with Ja
 
 # Demo Video
 
-To be added..
+https://youtu.be/juc8B21i1VM
